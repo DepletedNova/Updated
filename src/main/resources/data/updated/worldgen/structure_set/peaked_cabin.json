@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "updated:peaked_cabin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 128379085,
+    "spacing": 200,
+    "separation": 190,
+    "type": "minecraft:random_spread"
+  }
+}

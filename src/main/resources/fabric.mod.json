@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "updated",
+  "version": "${version}",
+  "name": "Updated",
+  "description": "Updating Minecraft in our own way!",
+  "authors": [
+    "DepletedNova",
+    "Snow_Cloud"
+  ],
+  "contact": {},
+  "license": "Apache License 2.0",
+  "icon": "assets/updated/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.depletednova.updated.Updated"
+    ],
+    "client": [
+      "com.depletednova.updated.UpdatedClient"
+    ],
+    "fabric-datagen": [
+      "com.depletednova.updated.foundation.data.GeneratorHub"
+    ]
+  },
+  "mixins": [
+    "updated.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*"
+  }
+}

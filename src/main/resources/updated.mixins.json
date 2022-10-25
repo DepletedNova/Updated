@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.depletednova.updated.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BackgroundRendererMixin",
+    "BlockEntityTypeMixin",
+    "ClientWorldMixin",
+    "TitleScreenMixin",
+    "accessors.BlockAccessor",
+    "accessors.FoliagePlacerTypeAccessor",
+    "accessors.SignTypeAccessor",
+    "accessors.TrunkPlacerTypeAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
