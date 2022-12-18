@@ -44,7 +44,7 @@ public class ChillagerEntity extends uSpellcastingIllagerEntity {
 		this.goalSelector.add(0, new SwimGoal(this));
 		this.goalSelector.add(1, new LookAtTargetGoal());
 		this.goalSelector.add(2, new FleeEntityGoal<PlayerEntity>(this, PlayerEntity.class, 8.0f, 0.6f, 1.0f));
-		this.goalSelector.add(3, new FleeEntityGoal<IronGolemEntity>(this, IronGolemEntity.class, 8.0f, 0.6f, 1.0f));
+		this.goalSelector.add(3, new FleeEntityGoal<IronGolemEntity>(this, IronGolemEntity.class, 10.0f, 0.6f, 1.0f));
 		this.goalSelector.add(5, new AvalancheSpellGoal());
 		this.goalSelector.add(6, new RepelSpellGoal());
 		this.goalSelector.add(7, new FreezeSpellGoal());

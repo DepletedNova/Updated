@@ -79,7 +79,7 @@ public final class WinterUpdate extends AbstractUpdate {
                 .setSpawnRestrictions(SpawnRestriction.Location.NO_RESTRICTIONS, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, HostileEntity::canSpawnInDark)
                 .setSpawnEgg((entityType -> new ItemRegistry("iceologer_spawn_egg",
                         new SpawnEggItem((EntityType<? extends MobEntity>) entityType,
-                                12895428, 11382189,
+                                0xADC3CC, 0x0D3B4A,
                                 new Item.Settings().group(ItemGroup.MISC)))));
         
         new EntityRegistry<FallingIceShardEntity>("falling_ice_shard", FallingIceShardEntity.class,

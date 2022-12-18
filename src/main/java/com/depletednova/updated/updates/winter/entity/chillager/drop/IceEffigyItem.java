@@ -16,7 +16,7 @@ import net.minecraft.world.World;
 
 public class IceEffigyItem extends Item {
 	public IceEffigyItem() {
-		super(new FabricItemSettings().maxCount(4).group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+		super(new FabricItemSettings().maxCount(1).group(ItemGroup.COMBAT).rarity(Rarity.RARE));
 	}
 	
 	@Override public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
